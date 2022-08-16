@@ -1,0 +1,100 @@
+.menu {
+	padding-block: 2rem;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1980px;
+
+  
+}
+
+.menu-btn-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0 1.5rem;
+}
+
+.menu-btn {
+	background-color: transparent;
+	border: currentColor;
+	text-transform: capitalize;
+	cursor: pointer;
+	font-weight: 500;
+	color: var(--clr-accent);
+	font-size: var(--fs-400);
+}
+
+.menu-btn:hover {
+	color: var(--clr-secondary);
+}
+
+.food-cart-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem 1rem;
+	margin-top: 2rem;
+}
+
+.cart {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem 0;
+    padding: 1rem 0;
+    background-color: var(--clr-white);
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    box-shadow: 0 2px 3px rgba(37, 37, 37, 0.17);
+    cursor: pointer;
+}
+.cart-info {
+	width: 90%;
+	margin-inline: auto;
+   
+}
+.cart img {
+	width: 80%;
+	margin-inline: auto;
+    height: 250px;
+    object-fit: contain;
+}
+
+.food-categories {
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.food-name {
+	font-size: var(--fs-400);
+}
+.food-cart {
+	display: flex;
+	width: 90%;
+	margin-top: 1.5rem;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	font-size: var(--fs-500);
+	margin-inline: auto;
+}
+.food-price{
+    font-weight: 600;
+}
+.cart-icon{
+    color: var(--clr-secondary);
+}
+
+@media (max-width:600px) {
+	.menu-btn-group{
+		gap: 0.5rem;
+	}
+	
+	
+}
